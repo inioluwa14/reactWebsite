@@ -1,11 +1,12 @@
 
 const main = () => {
+    const country = "Nigeria";
     return (
         <main className="main">
             <section className="about-section">
                 <h2 className="aboutUs">About Us</h2>
                 <p className="about-us-text">
-                We are a small team of web developers based in the United States. We
+                We are a small team of web developers based in the {country}. We
                 pecialise in creating modern and responsive websites for businesses
                 and individuals.
                 </p>
